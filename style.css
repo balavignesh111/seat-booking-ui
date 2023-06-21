@@ -19,6 +19,7 @@ html{
 body{
   font-family: 'Roboto', sans-serif;
   background-color: var(--clr-breeky-blue);
+  color: var(--clr-white);
   width: 100vw;
   min-height: 100vh;
   display: flex;
@@ -29,8 +30,98 @@ body{
 
 .container{
   width: 25rem;
-  background-color: var(--clr-white);
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* title */
+.seat-title{
+  font-size: 1.2rem;
+  letter-spacing: 0.2rem;
+  font-weight: 900;
+}
+
+/* seat picker */
+.movies-container{
+  font-size: 1.2rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.movie-picker-label{
+  font-weight: 600;
+}
+
+.type-movie{
+  width: 10rem;
+  height: 2rem;
+  font-size: 1.1rem;
+}
+
+/* vaccany seat  */
+.movie-selection-container{
+  width: 22rem;
+  height: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: var(--clr-azure);
+}
+
+/* types of seats */
+.seat{
+  width: 1.7rem;
+  height: 1.7rem;
+  background-color: var(--clr-gray);
+  border-top-left-radius: 0.7rem;
+  border-top-right-radius: 0.7rem;
+}
+
+.occupied{
+  background-color: var(--clr-white);
+}
+
+.selected{
+  background-color: var(--clr-argentine-blue);
+}
+
+.movie-status{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* movie screen */
+.movie-screen{
+  width: 22rem;
+  height: 6rem;
+  border: 1px solid var(--clr-white);
+  border-radius: 5px;
+  background-color: var(--clr-white);
+}
+
+/* movie-seat-container */
+.movie-seat-container{
+  width: 22rem;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 0.5rem;
+}
+
+.movie-price-container{
+  font-size: 1.2rem;
+}
+.movie-seat-count,.price{
+  color: var(--clr-azure);
 }
