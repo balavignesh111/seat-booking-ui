@@ -81,6 +81,14 @@ body{
   background-color: var(--clr-gray);
   border-top-left-radius: 0.7rem;
   border-top-right-radius: 0.7rem;
+  
+}
+
+.row .seat{
+  cursor: pointer;
+} 
+.row .seat:hover{
+  background-color: var(--clr-white);
 }
 
 .occupied{
