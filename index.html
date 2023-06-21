@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seat Booking App</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="title-container">
+      <h1 class="seat-title">Book Your Movie Seats</h1>
+    </div>
+    <div class="movies-container">
+      <label for="type-movie">Pick a Movie</label>
+      <select name="pick-a-movie" id="type-movie">
+        <option selected disabled >Select a movie</option>
+        <option value="100">Movie A - 100</option>
+        <option value="150">Movie B - 150</option>
+        <option value="200">Movie C - 200</option>
+      </select>
+    </div>
+    <div class="movie-selection-container">
+      <div class="movie-status">
+        <div class="seat"></div>
+      <span class="not-selected">N/A</span>
+    </div>
+      <div class="movie-status">
+        <div class="seat"></div>
+      <span class="not-selected">Selected</span>
+    </div>
+      <div class="movie-status">
+        <div class="seat"></div>
+      <span class="not-selected">Occupied</span>
+    </div>
+    </div>
+    <div class="moive-screen"></div>
+    <div class="movie-seat-container">
+      <div class="row">
+        <div class="seats"></div>
+        <div class="seats"></div>
+        <div class="seats"></div>
+        <div class="seats"></div>
+        <div class="seats"></div>
+        <div class="seats"></div>
+        <div class="seats"></div>
+        <div class="seats"></div>
+      </div>
+      <div class="row">
+        <div class="seats"></div>
+        <div class="seats"></div>
+        <div class="seats"></div>
+        <div class="seats"></div>
+        <div class="seats"></div>
+        <div class="seats"></div>
+        <div class="seats"></div>
+        <div class="seats"></div>
+      </div>
+      <div class="row">
+        <div class="seats"></div>
+        <div class="seats"></div>
+        <div class="seats"></div>
+        <div class="seats"></div>
+        <div class="seats"></div>
+        <div class="seats"></div>
+        <div class="seats"></div>
+        <div class="seats"></div>
+      </div>
+      <div class="row">
+        <div class="seats"></div>
+        <div class="seats"></div>
+        <div class="seats"></div>
+        <div class="seats"></div>
+        <div class="seats"></div>
+        <div class="seats"></div>
+        <div class="seats"></div>
+        <div class="seats"></div>
+      </div>
+      <div class="row">
+        <div class="seats"></div>
+        <div class="seats"></div>
+        <div class="seats"></div>
+        <div class="seats"></div>
+        <div class="seats"></div>
+        <div class="seats"></div>
+        <div class="seats"></div>
+        <div class="seats"></div>
+      </div>
+      <div class="row">
+        <div class="seats"></div>
+        <div class="seats"></div>
+        <div class="seats"></div>
+        <div class="seats"></div>
+        <div class="seats"></div>
+        <div class="seats"></div>
+        <div class="seats"></div>
+        <div class="seats"></div>
+      </div>
+    </div>
+    <div class="movie-price-container">
+      <p class="movie-description">
+        You have selected <span class="movie-seat-count">0</span> for a total of ₹ <span class="price">0</span>
+      </p>
+    </div>
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>

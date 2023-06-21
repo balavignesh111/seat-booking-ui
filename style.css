@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --clr-breeky-blue: rgb(0, 50, 98);
+  --clr-azure: rgb(0, 127, 255);
+  --clr-argentine-blue: #6CB4EE;
+  --clr-gray:#555555;
+  --clr-white: white;
+}
+
+html{
+  font-size: 16px;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--clr-breeky-blue);
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  width: 25rem;
+  background-color: var(--clr-white);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
