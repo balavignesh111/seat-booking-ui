@@ -87,9 +87,6 @@ body{
 .row .seat{
   cursor: pointer;
 } 
-.row .seat:hover{
-  background-color: var(--clr-white);
-}
 
 .occupied{
   background-color: var(--clr-white);

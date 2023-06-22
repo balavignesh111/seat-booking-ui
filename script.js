@@ -25,7 +25,7 @@ const priceCalculation = function(){
   priceEle.innerText = total;
 }
 
-// eventlisteners
+// eventlistener
 selectMovieEle.addEventListener('change',(event)=>{
   console.log('value',event.target.value)
   price = Number(event.target.value);
